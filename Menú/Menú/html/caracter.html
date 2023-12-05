@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de caracteres</title>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        function contarCaracteres(frase) {
+            var longitud = frase.length;
+            return longitud;
+        }
+        
+        function mostrarConteo() {
+            var frase = document.getElementById("frase").value;
+            var conteo = contarCaracteres(frase);
+            document.getElementById("resultado").innerHTML = "La frase tiene " + conteo + " caracteres.";
+        }
+    </script>
+</head>
+<body>
+    <form action="../index.html">
+        <button type="submit"class="boton">regresar</button>
+    </form>
+    <h3>Contador de caracteres</h3>
+    <label for="frase">Frase:</label>
+    <input type="text" id="frase"><br><br>
+    <button class="boton" onclick="mostrarConteo()">Contar</button><br><br>
+    <div id="resultado"></div>
+</body>
+</html>

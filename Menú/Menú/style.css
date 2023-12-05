@@ -1,0 +1,89 @@
+h1{
+    color:#f1ccba;
+    background-color: #1c1c1c ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+    border-style: solid;
+ }
+
+ a{
+    text-decoration:none  ;
+   color: #f1ccba;;
+   display:  flex;
+     justify-content: centr;
+   margin-top: 20px;
+   margin-right:25px ;
+  
+}
+li{
+    
+    list-style:  none;
+}
+body{
+    background-color: #23714d;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+h3{
+    color:black;
+    background-color: #356bb3;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+    border-style: solid;
+}
+main{
+
+
+    align-items: center;
+    border-style: solid;
+    
+}
+li{
+
+    margin-top: 50px;
+ color: black;
+
+}
+header{
+    color: black;
+}
+p{
+  align-items: center ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+input{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+    border-style: solid;
+    
+}
+.boton{
+    background-color: #1c1c1c;
+    color:#f1ccba;
+    display: inline-block;
+    border:none;
+    transition-duration: 1.5;
+    border-radius: 5px;
+    padding: 5px 12px;
+    box-shadow: 0 8px 16px rgb(0,0,0,0,2);
+    cursor: pointer;
+}
+.boton:hover{
+background-color: black;
+animation:jello-vertical .9s linear both} 
+@keyframes jello-vertical{0%{transform:scale3d(1,1,1)}
+30%{transform:scale3d(.75,1.25,1)}
+40%{transform:scale3d(1.25,.75,1)}
+50%{transform:scale3d(.85,1.15,1)}
+65%{transform:scale3d(1.05,.95,1)}
+75%{transform:scale3d(.95,1.05,1)}
+100%{transform:scale3d(1,1,1)}
+}

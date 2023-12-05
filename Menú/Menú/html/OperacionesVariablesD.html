@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+  <title>Ejercicios de Numeros</title>
+</head>
+<body>
+   <div> <a href="../index.html"><h1>Menú Principal</h1></a></div>
+<main>
+  <div>
+    <p>1) y = 2 * a + b - a % 3</p>
+  </div>
+  <div>
+    <p>2) z = a * b + 3 % a + b</p>
+    
+  </div>
+  <div>
+    
+    <p>3) w = a - b + 2 * a % b</p>
+  
+  </div>
+  <div>
+    
+    <p>4) v = 2 * b + a div 2 + 4 * b % a.</p>
+    
+  </div>
+  <div>
+    <p>5) u = b - a + 3 * a % b.</p>
+  </div>
+  <form action="../index.html">
+    <label for="a">
+      <input type="number" placeholder="Ingrese el valor de a" id="a" required>
+    </label>
+    <label for="b">
+      <input type="number" id="b" placeholder="Ingrese el valor de b" required>
+    </label>
+  </form>
+  <div> 
+    <button type="button" class="boton"onclick="ejercicios.expresiones()">Calcular</button>
+    <p id="res">Aqui va la respuesta</p>
+  </div>
+  <div>
+    <p>Mostrar respuesta de ejercicios 6-10</p><br>
+    <button type="button" class="boton" onclick="ejercicios.expresiones2()">Mostrar</button>
+    <h3>Ejercicio 6</h3>
+    <p>(5 + 3 * 2) + 9 > 3 * 5 * 14 mod 3</p>
+
+  </div>
+  <div>
+    <h3>Ejercicio 7</h3>
+    <p>2 *(4 - 10 + 8)/2* 36 *(1/2)</p>
+ 
+  </div>
+  <div>
+    <h3>Ejercicio 8</h3>
+    <p>260 / 12 + 54  MOD  3 ? 85  MOD  7</p>
+    
+  </div>
+  <div>
+    <h3>Ejercicio 9</h3>
+    <p>(48 < 2 * 3)  O  (2 * 7 < 12)</p>
+
+  </div>
+  <div>
+    <h3>Ejercicio 10</h3>
+    <p>((8 > 2)  O   O  (932 < 23) )  Y  4 == 2</p>
+ 
+  </div>
+  <p id="resp">aqui va la respuesta</p>
+</main>
+  <script src="../main.js"></script>
+</body>
+</html>

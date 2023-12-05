@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de multiplicar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1><a href="../index.html">regresar</a></h1>
+    <main>
+        <h3>Tablas de multiplicar</h3>
+        <form>
+            <label for="desde">
+                <input type="number" id="desde" placeholder="desde: valor min.Ej.1 ">
+            </label>
+            <label for="hasta">
+                <input type="number" id="hasta" placeholder="hasta: valor max.Ej.20 ">
+            </label>
+            <label for="tabla">
+                <input type="number" id="tabla" placeholder="Ingrese Un numero">
+            </label>
+            <button type="button" class="boton" onclick="ejercicios.tablamultiplicar_15()">Enter</button>
+        </form>
+        <p>tabla de multiplicar</p>
+        <p id="res">respuesta</p>
+    </main>
+    <script src="../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo HTML</title>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        function saludar() {
+            document.getElementById("res").innerHTML=`Hola que tal`
+        }
+    </script>
+</head>
+<body>
+<form action="../index.html">
+    <button class="boton"type="submit">regresar</button>
+    <p id="res"></p>
+</form>
+    <button class="boton"onclick="saludar()">Saludar</button>
+</body>
+</html>

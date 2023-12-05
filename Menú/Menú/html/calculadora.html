@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1><a href="../index.html">regresar</a></h1>
+    <h3>Calculadora simple</h3>
+    <form>
+        <label for="num1">
+            <input type="number" id="num1" required placeholder="Ingrese un numero"><br>
+        </label>
+        <label for="oper">
+            <input type="text" id="oper" required placeholder="Ingrese un operador(+-*/)"><br>
+        </label>
+        <label for="num2">
+            <input type="number" id="num2" required placeholder="Ingrese el segundo numero"><br>
+        </label>
+    </form>
+    <button type="button" class="boton" onclick="ejercicios.calculadoraS_14()">Enter</button>
+    <p id="res">resultado</p>
+    <script src="../main.js"></script>
+</body>
+</html>

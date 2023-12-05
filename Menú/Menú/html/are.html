@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Área de Rectángulo</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <form action="../index.html">
+    <button type="submit" class="boton">regresar</button>
+</form>
+  <h3>Calculadora de Área de Rectángulo</h3>
+
+  <label for="base">Base:</label>
+  <input type="number" id="base" name="base">
+
+  <label for="altura">Altura:</label>
+  <input type="number" id="altura" name="altura">
+
+  <button onclick="calcularArea()" class="boton">Calcular Área</button>
+
+  <p id="resultado">Área: </p>
+
+  <script>
+    function calcularArea() {
+      let base = document.getElementById("base").value;
+      let altura = document.getElementById("altura").value;
+      if (isNaN(base) || isNaN(altura)) {
+        alert("Ingresa números válidos en ambos campos.");
+        return;
+      }
+
+      var area = parseFloat(base) * parseFloat(altura);
+      document.getElementById("resultado").innerText = "Área: " + area;
+    }
+  </script>
+
+</body>
+</html>

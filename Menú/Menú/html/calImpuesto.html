@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de factura con Impuestos</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <form action="../index.html">
+            <input type="submit"class="boton" value="regresar">
+        </form>
+        <form>
+            <h2>Total de la factura</h2>
+            <label for="factura">
+                <input type="number" id="factura">
+            </label>
+            <h2>Porcentaje de Aumento</h2>
+            <label for="impuesto">
+                <input type="number" id="impuesto" placeholder="%">
+            </label>
+            <button type="button"class="boton" onclick="ejercicios.calImpuesto_27()">Enter</button>
+            <p id="res">resultado</p>
+        </form>
+    </main>
+    <script src="../main.js"></script>
+</body>
+</html>
